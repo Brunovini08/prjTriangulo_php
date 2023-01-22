@@ -1,0 +1,35 @@
+form{
+    background-color: #ddd;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    border: solid 2px black;
+    display: flex;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 80px;
+}
+
+label{
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.enviar, .resetar{
+    color:white ;
+    background-color:blueviolet ;
+    margin: 5px;
+    padding-top: 5px;
+    width: 220px ;
+}
+
+.altura, .base{
+    padding-top: 5px;
+    width: 200px;
+}
+
+
